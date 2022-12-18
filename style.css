@@ -2,13 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     padding: 100px 200px;
 }
 
 .screen {
-    border-radius: 10cm;
-    width: 800px;
+    border-radius: 1cm;
+    width: 870px;
     height: 80px;
     background-color: #CBEDD5;
     text-align: center;
@@ -21,7 +21,10 @@ body {
 .calculator {
     display: flex;
     justify-content: center;
+    border-radius: 1cm;
     gap: 60px;
+    padding: 20px;
+    background-color: #dff2e5;
 }
 
 .digits {
@@ -29,6 +32,7 @@ body {
     width: 400px;
     height: 400px;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 4px;
 }
 
